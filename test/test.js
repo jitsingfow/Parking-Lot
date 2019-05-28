@@ -16,7 +16,7 @@ var parkingLotArray = [];
 
 describe('Basic Mocha String Test', function () {
     it('Read test input', function (done) {
-        fs.readFile('./file_input.txt', 'utf-8', function (err, data) {
+        fs.readFile('./input.txt', 'utf-8', function (err, data) {
             if (err) {
                 throw "Unable to read file";
             }
