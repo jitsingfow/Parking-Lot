@@ -29,9 +29,11 @@ don't want two distinct submissions.
 2. It should accept a filename as a parameter at the command prompt and read the
 
 <br />
-**commands from that file**
+
+**Commands from that file**
+
+***Example: File***
 <br />
-Example: File<br />
 To install all dependencies:<br />
 $ npm i<br />
 To run tests:<br />
@@ -39,6 +41,7 @@ $ npm test<br />
 
 To run the code so it accepts input from a file:<br />
 $ npm start input.txt<br />
+
 Input (contents of file):<br />
 create_parking_lot 6<br />
 park KA-01-HH-1234 White<br />
@@ -78,13 +81,15 @@ KA-01-HH-1234, KA-01-HH-9999, KA-01-P-333<br />
 6<br />
 Not found<br />
 
-**Example: Interactive**<br />
+***Example: Interactive***<br />
 To install all dependencies:<br />
 $ npm i<br />
 To run tests:<br />
 $ npm test<br />
+
 To run the program and launch the shell:<br />
 $ npm start<br />
+
 Assuming a parking lot with 6 slots, the following commands should be run in sequence by typing them in at a prompt and should produce output as described below the command. Note that exit terminates the process and returns control to the shell.<br />
 $ create_parking_lot 6<br />
 Created a parking lot with 6 slots<br />
