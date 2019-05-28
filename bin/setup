@@ -1,0 +1,6 @@
+
+# * Install dependencies
+npm i
+
+#
+# TO run the app: bin/parking_lot
